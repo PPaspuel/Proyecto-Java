@@ -13,7 +13,8 @@ public class NuevoP {
     Arreglo [5] = 50;
     
    for(int i =0;i<Arreglo.length;i++){
-    System.out.println("Numeros ingresados:"+" "+ Arreglo[i]*2);
+    System.out.print(i+1);
+    System.out.println("\tNumeros ingresados:"+" "+ Arreglo[i]*2);
    }
    
 }
