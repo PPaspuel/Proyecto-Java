@@ -16,5 +16,6 @@ def multi (e,c):
 
 prueba1 = suma(25,12)
 prueba2 = multi(10,12)
+print("Los resultados son:")
 print("El resultado es :"+ str(prueba1))
 print("El resultado es :"+ str(prueba2))
