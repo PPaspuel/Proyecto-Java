@@ -2,7 +2,7 @@ package basicos.PruebaGit;
 
 public class NuevoP {
     public static void main(String args[]){
-    int Arreglo [] = new int [5];
+    int Arreglo [] = new int [6];
     
     // Datos para el arreglo
     Arreglo [0] = 10;
@@ -10,9 +10,10 @@ public class NuevoP {
     Arreglo [2] = 30;
     Arreglo [3] = 19;
     Arreglo [4] = 20;
+    Arreglo [5] = 50;
     
    for(int i =0;i<Arreglo.length;i++){
-    System.out.println("Numeros ingresados:"+" "+ Arreglo[i]);
+    System.out.println("Numeros ingresados:"+" "+ Arreglo[i]*2);
    }
    
 }
